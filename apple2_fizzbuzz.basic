@@ -1,0 +1,29 @@
+1 REM **************************
+2 REM * FIZZ BUZZ for Apple II *
+3 REM * August 22, 2018        *
+4 REM * By Daniel W. Lu        *
+5 REM * Twitter: @dandydanny   *
+6 REM **************************
+10 LET I = 1
+20 LET X = 0
+30 LET Y = 0
+100 IF (I = 101) GOTO 1000
+200 LET X = (I/3) - INT(I/3)
+210 LET Y = (I/5) - INT(I/5)
+213 REM DEBUG
+214 REM PRINT "I:", I
+215 REM PRINT "X:", X
+216 REM PRINT "Y:", Y
+250 IF X=0 AND Y=0 GOTO 850
+300 IF X = 0 GOTO 900
+400 IF Y = 0 GOTO 950
+600 PRINT I
+700 I = I + 1
+800 GOTO 100
+850 PRINT "FIZZ BUZZ"
+860 GOTO 700
+900 PRINT "FIZZ"
+910 GOTO 700
+950 PRINT "BUZZ"
+960 GOTO 700
+1000 PRINT "GOODBYE"
