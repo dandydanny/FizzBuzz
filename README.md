@@ -19,5 +19,8 @@ Rules:
 ### Where?
 [See Apple II demo](https://twitter.com/dandydanny/status/1032363740128206848)
 
+### To-Do
+1. Add blam?
+
 ### About
 Daniel is a web developer seeking opportunities, beverage socials, and late-night taco runs. [dandydanny.github.io](https://git.io/vxurG)
